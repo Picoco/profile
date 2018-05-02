@@ -42,7 +42,7 @@ p {
 }
 
 a {
-    color: #ccc;
+    color: #546A7B;;
     text-decoration: none;
 }
 
@@ -69,8 +69,8 @@ table {
 }
 
 .container {
-  width: 500px;
-  margin: 0 auto;
+  width: 90%;
+  margin: 30px auto;
 }
 
 .card {
@@ -123,5 +123,37 @@ table {
 
 .icon{
   font-size: 30px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #384047;
+  width: 120px;
+  text-align: center;
+  font-size: 25px;
+}
+
+#sidebar li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+#sidebar a:hover{
+  color: white;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#page-content {
+  margin-left: 120px;
 }
 

@@ -7,60 +7,69 @@
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-      <div class="card text-center">
-        <img src="images/profile.png" alt="Pierre Cohen" id="img-profile" class="circle-image">
-        <h1>Pierre Cohen</h1>
-        <h2>Student @Le Wagon</h2>
-        <p>After my business school, and some experiences in French start-up (Frichti & Ouihelp), <strong>I wanted to learn how to code @Le Wagon</strong> in order to become Product Manager.</p>
-        <a href="https://lewagon.com" class="btn-red">See for yourself</a>
-      </div>
-      <div class="card text-center">
-        <ul class="list-inline">
-          <li  class="social-network" class="text-center"><a href = "https://www.facebook.com/pierre.cohen.330"><i class="fa fa-facebook" aria-hidden="true"></i><br>Facebook</a></li>
-          <li><a class="social-network" href = "https://www.linkedin.com/in/pierre-cohen-a99356b0/"><i class="fa fa-linkedin" aria-hidden="true"></i><br>LinkedIn</a></li>
-          <li><a class="social-network" href = "https://github.com/Picoco"><i class="fa fa-github" aria-hidden="true"></i><br>Github</a></li>
-        </ul>
-      </div>
-      <div class="card text-center">
-        <h2>My Favorite movies</h2>
-        <table>
-          <tbody>
-            <tr>
-              <td><img src="images/ray.jpeg" alt="Ray"></td>
-              <td><h3>Ray</h3>
-              <p>Raised on a sharecropping plantation in Northern Florida, Ray Charles Robinson went blind at the age of seven. Charles found his calling and his gift behind a piano keyboard.</p></td>
-            </tr>
-            <tr>
-              <td><img src="images/bad boys.jpeg" alt="Bad Boys"></td>
-              <td><h3>Bad Boys</h3>
-              <p>Bad Boys is a 1995 American buddy cop action comedy film starring Martin Lawrence and Will Smith as two Miami Narcotics Detectives Marcus Burnett and Mike Lowrey.</p></td>
-            </tr>
-            <tr>
-              <td><img src="images/usual suspect.jpeg" alt="Usual Suspect"></td>
-              <td><h3>Usual Suspect</h3>
-              <p>The Usual Suspects is a 1995 American neo-noir mystery film. It stars Stephen Baldwin, Gabriel Byrne, Benicio del Toro, Kevin Pollak, Chazz Palminteri, Pete Postlethwaite, and Kevin Spacey.</p></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="card text-center">
-        <h2>About this page</h2>
-        <p>This page has been coded during the <a href="https://lewagon.com/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
-        </p>
-        <ul class="list-inline">
-          <li>
-            <a class="icon" href="#">
-              <i class="fa fa-heart"></i>
-            </a>
-          </li>
-          <li>
-            <a class="icon" href="#"><i class="fa fa-share"></i></a>
-          </li>
-          <li>
-            <a class="icon" href="#"><i class="fa fa-star"></i></a>
-          </li>
-        </ul>
+    <div id="sidebar">
+      <ul>
+        <li><a href="#summary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+        <li><a href="#favorite-movie"><i class="fa fa-video-camera" aria-hidden="true"></i></a></li>
+        <li><a href="#footer"><i class="fa fa-hourglass-end" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+    <div id="page-content">
+      <div class="container">
+        <div class="card text-center" id="summary">
+          <img src="images/profile.png" alt="Pierre Cohen" id="img-profile" class="circle-image">
+          <h1>Pierre Cohen</h1>
+          <h2>Student @Le Wagon</h2>
+          <p>After my business school, and some experiences in French start-up (Frichti & Ouihelp), <strong>I wanted to learn how to code @Le Wagon</strong> in order to become Product Manager.</p>
+          <a href="https://lewagon.com" class="btn-red">See for yourself</a>
+        </div>
+        <div class="card text-center">
+          <ul class="list-inline">
+            <li  class="social-network" class="text-center"><a href = "https://www.facebook.com/pierre.cohen.330"><i class="fa fa-facebook" aria-hidden="true"></i><br>Facebook</a></li>
+            <li><a class="social-network" href = "https://www.linkedin.com/in/pierre-cohen-a99356b0/"><i class="fa fa-linkedin" aria-hidden="true"></i><br>LinkedIn</a></li>
+            <li><a class="social-network" href = "https://github.com/Picoco"><i class="fa fa-github" aria-hidden="true"></i><br>Github</a></li>
+          </ul>
+        </div>
+        <div class="card text-center" id="favorite-movie">
+          <h2>My Favorite movies</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td><img src="images/ray.jpeg" alt="Ray"></td>
+                <td><h3>Ray</h3>
+                <p>Raised on a sharecropping plantation in Northern Florida, Ray Charles Robinson went blind at the age of seven. Charles found his calling and his gift behind a piano keyboard.</p></td>
+              </tr>
+              <tr>
+                <td><img src="images/bad boys.jpeg" alt="Bad Boys"></td>
+                <td><h3>Bad Boys</h3>
+                <p>Bad Boys is a 1995 American buddy cop action comedy film starring Martin Lawrence and Will Smith as two Miami Narcotics Detectives Marcus Burnett and Mike Lowrey.</p></td>
+              </tr>
+              <tr>
+                <td><img src="images/usual suspect.jpeg" alt="Usual Suspect"></td>
+                <td><h3>Usual Suspect</h3>
+                <p>The Usual Suspects is a 1995 American neo-noir mystery film. It stars Stephen Baldwin, Gabriel Byrne, Benicio del Toro, Kevin Pollak, Chazz Palminteri, Pete Postlethwaite, and Kevin Spacey.</p></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card text-center" id="footer">
+          <h2>About this page</h2>
+          <p>This page has been coded during the <a href="https://lewagon.com/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
+          </p>
+          <ul class="list-inline">
+            <li>
+              <a class="icon" href="#">
+                <i class="fa fa-heart"></i>
+              </a>
+            </li>
+            <li>
+              <a class="icon" href="#"><i class="fa fa-share"></i></a>
+            </li>
+            <li>
+              <a class="icon" href="#"><i class="fa fa-star"></i></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     </body>
