@@ -1,0 +1,127 @@
+html {
+    display: block;
+    margin: 20px;
+}
+
+body {
+    background: #EBEBEB;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #7d7d7d;
+    font-size: 15px;
+    line-height: 1.6em;
+    display: block;
+    margin: 8px;
+}
+
+div {
+  display: block;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: #DD5555;
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+p {
+    display: block;
+}
+
+a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DD5555;
+    text-decoration: none;
+}
+
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+img {
+  width: 100px;
+  margin: 20px;
+}
+
+table {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.text-center {
+    text-align: center;
+}
+
+.circle-image{
+  border-radius: 50%;
+}
+
+#img-profile{
+  width: 100px;
+  height: 100px;
+  border: 3px solid #cccccc;
+  margin: 0px;
+}
+
+.btn-red{
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-red:hover{
+  background-color: #C3423F;
+  color: white;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.social-network{
+  font-size: 20px;
+}
+
+.icon{
+  font-size: 30px;
+}
+
